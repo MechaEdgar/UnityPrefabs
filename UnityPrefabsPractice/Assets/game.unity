@@ -372,51 +372,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1139316823
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1139316825}
-  - component: {fileID: 1139316824}
-  m_Layer: 0
-  m_Name: Explosion
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1139316824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1139316823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab93b51f1e8b04c0491f5971e8099fed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosionPrefabs:
-  - {fileID: 1786426972058462, guid: a06fb3e71e2c848379aa7328e5447099, type: 2}
-  - {fileID: 1358802553833540, guid: 397c908be97d4492e934dbb6b7654b5e, type: 2}
-  - {fileID: 1590355014959888, guid: 893ac73f7ad424f87bb710b3019cb8f0, type: 2}
-  amountOfParticles: 3
---- !u!4 &1139316825
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1139316823}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: -5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1142323524
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +385,7 @@ GameObject:
   - component: {fileID: 1142323525}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: TriggerExplosion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

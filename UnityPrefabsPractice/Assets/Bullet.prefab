@@ -110,6 +110,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shoothingForce: 1500
+  shoothingDirection: {x: 0, y: 0, z: 0}
+  explosionPrefab: {fileID: 1722237267899662, guid: e84ba070b074e4c2ba45a61416ef88b5,
+    type: 2}
+  lifeTime: 3
 --- !u!135 &135201389994664358
 SphereCollider:
   m_ObjectHideFlags: 1
